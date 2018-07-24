@@ -11,7 +11,11 @@ p strong {
   padding-top: 130px;
 }
 img {
+  max-width: 860px;
   width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 blockquote {
   font-style: italic;
