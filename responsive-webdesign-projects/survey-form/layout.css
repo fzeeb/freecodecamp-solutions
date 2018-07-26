@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(190deg,  lightblue, white);linear-gradient(135deg, red, blue);
+    height: 100vh;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.6;
+  max-width: 760px;
+  border-radius: 10px;
+}
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+#submit {
+  margin-bottom: 30px;
+}
