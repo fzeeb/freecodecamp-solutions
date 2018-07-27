@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(190deg,  lightblue, white);linear-gradient(135deg, red, blue);
-    height: 100vh;
+  background: linear-gradient(190deg, lightblue, white);
+  height: 100vh;
 }
 main {
   display: block;
@@ -17,15 +17,25 @@ h1 {
 #description {
   text-align: center;
 }
-form {
+section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
-
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.column {
+  flex: 45%;
+}
+.right {
+  text-align: right;
+}
 ul {
   list-style: none;
 }
 #submit {
   margin-bottom: 30px;
+  justify-content: center;
 }
