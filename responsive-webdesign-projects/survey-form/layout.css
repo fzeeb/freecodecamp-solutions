@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(190deg, lightblue, white);
+  height: 100vh;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.6;
+  max-width: 760px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.column {
+  flex: 45%;
+}
+.right {
+  text-align: right;
+}
+ul {
+  list-style: none;
+}
+#submit {
+  margin-bottom: 30px;
+}

@@ -12,72 +12,91 @@
         <p id="description">We want to know more about you</p>
         <form action="" id="survey-form">
             <section>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column right">
                         <label for="name" id="name-label">Name:</label>
                     </div>
-                    <input type="text" id="name" placeholder="firstname lastname" required>
+                    <div class="column">
+                        <input type="text" id="name" placeholder="firstname lastname" required>
+                    </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column right">
                         <label for="email" id="email-label">Email:</label>
                     </div>
-                    <input type="email" id="email" placeholder="mail@domain.com" required>
+                    <div class="column">
+                        <input type="email" id="email" placeholder="mail@domain.com" required>
+                    </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column right">
                         <label for="number" id="number-label">Age:</label>
                     </div>
-                    <input type="number" id="number" min="13" max="120" placeholder="13 - 120">
+                    <div class="column">
+                        <input type="number" id="number" min="13" max="120" placeholder="13 - 120">
+                    </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column right">
                         <label for="dropdown">Gender:</label>
                     </div>
-                    <select name="dropdown" id="dropdown">
-                        <option disabled value selected>Choose your gender</option>
-                        <option value="female">Female</option>
-                        <option value="male">Male</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <div class="column">
+                        <select name="dropdown" id="dropdown">
+                            <option disabled value selected>Choose your gender</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
                 </div>
             </section>
             <section>
-                <p>How is your mood today:</p>
-                <ul>
-                    <li>
-                        <input type="radio" name="radio-btns" value="happy" id="happy">
-                        <label for="">Happy</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="radio-btns" value="excited">
-                        <label for="excited">Excited</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="radio-btns" value="calm">
-                        <label for="calm">Calm</label>
-                    </li>
-                </ul>
-
-
-                <div>
-                    <label for="commet">Please leave a comment:</label>
+                <div class="row">
+                    <label for="mood" class="column right">How is your mood today:</label for="mood">
+                    <div class="column">
+                        <ul name="mood" id="mood">
+                            <li>
+                                <input type="radio" name="radio-btns" value="happy" id="happy">
+                                <label for="">Happy</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="radio-btns" value="excited">
+                                <label for="excited">Excited</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="radio-btns" value="calm">
+                                <label for="calm">Calm</label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                <ul>
-                    <li>
-                        <input type="checkbox" name="newsletter" id="newsletter" value="newsletter">
-                        <label for="newsletter">I want to receive more interesting stuff via email</label>
+                <div class="row">
+                    <div class="column right">
+                        <label for="commet">Please leave a comment:</label>
+                    </div>
+                    <div class="column">
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="newsletter" id="newsletter" value="newsletter">
+                            <label for="newsletter">I want to receive more interesting stuff via email</label>
 
-                    </li>
-                    <li>
-                        <input type="checkbox" name="terms-policy" id="terms-policy" value="terms-policy">
-                        <label for="terms-policy">I agree to the terms of service and privacy policy</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="terms-policy" id="terms-policy" value="terms-policy">
+                            <label for="terms-policy">I agree to the terms of service and privacy policy</label>
 
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
+
             </section>
-            <input type="submit" name="submit" id="submit" value="Submit">
+            <div class="row">
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
         </form>
     </main>
 
