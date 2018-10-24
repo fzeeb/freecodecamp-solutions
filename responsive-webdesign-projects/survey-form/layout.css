@@ -9,6 +9,7 @@ main {
   opacity: 0.6;
   max-width: 760px;
   border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   padding-top: 30px;
@@ -37,5 +38,4 @@ ul {
 }
 #submit {
   margin-bottom: 30px;
-  justify-content: center;
 }
